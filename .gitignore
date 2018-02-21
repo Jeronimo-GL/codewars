@@ -1,0 +1,12 @@
+# Scala and sbt
+bin/
+project/
+target/
+build/
+.ensime/
+.ensime
+.ensime_cache/
+*.class
+
+# python
+__pycache__

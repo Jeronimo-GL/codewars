@@ -1,19 +1,16 @@
 package codewars
 
 import org.scalatest._
+import codewars.CustomCodewarsMatchers._
 
-class ComplexAlgSpec extends FunSpec {
- protected def AssertComplexEquals(expected: Array[Double], actual: Array[Double]): Unit = {
-    if (Math.abs(expected(0)) <= 1) assertEquals("The real part of your returned complex number is not sufficiently close to the expected value", actual(0), expected(0), 1e-12)
-    else assertEquals("The real part of your returned complex number is not sufficiently close to the expected value", actual(0), expected(0), 1e-10)
-    if (Math.abs(expected(1)) <= 1) assertEquals("The imaginary part of your returned complex number is not sufficiently close to the expected value", actual(1), expected(1), 1e-12)
-    else assertEquals("The imaginary part of your returned complex number is not sufficiently close to the expected value", actual(1), expected(1), 1e-10)
- }
 
+class ComplexAlgSpec extends FunSpec with Matchers {
   describe("The complex algorthim function"){
 
-    it("should calculate correctly"){
-      assert(true)
+    it("Should work for normal numbers"){
+      ComplexAlgorithm.log(Array[Double](20, 0)) should complexEqual (Array[Double](2.995732273553991, 0))
+      ComplexAlgorithm.log(Array[Double](-1, 0)) should complexEqual (Array[Double](0, 3.141592653589793))
+      ComplexAlgorithm.log(Array[Double](1, 1)) should complexEqual (Array[Double](0.346573590279973, 0.785398163397448))
     }
 
     it("Should throw an exception if called on the poles"){
@@ -23,5 +20,4 @@ class ComplexAlgSpec extends FunSpec {
     }
 
   }
-
 }

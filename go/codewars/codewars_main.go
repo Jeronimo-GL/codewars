@@ -4,10 +4,21 @@ package main;
 
 import (
 	"fmt"
-	"codewars/bouncing"
 )
 
 func main() {
-	a:=bouncing.BouncingBall(3, 2.0/3,1.5)
-	fmt.Println("Resultado: ", a)
+	fmt.Printf("Pruebas de arrays\n")
+	
+	var list [][]int
+
+	list=append(list, []int{1,1})
+	list=append(list, []int{2,1})
+
+	printList(list)
+}
+
+func  printList(list [][]int ) {
+	for _, n := range list {
+		fmt.Printf("(%d, %d)\n", n[0], n[1])
+	}
 }

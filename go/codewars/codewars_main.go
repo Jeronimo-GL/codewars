@@ -7,14 +7,11 @@ import (
 )
 
 func main() {
-	fmt.Printf("Pruebas de arrays\n")
-	
-	var list [][]int
-
-	list=append(list, []int{1,1})
-	list=append(list, []int{2,1})
-
-	printList(list)
+	for i:=-1; i<=1; i++ {
+		for j:=-1; j<=1; j++ {
+			fmt.Println(i, j)
+		}
+	}
 }
 
 func  printList(list [][]int ) {

@@ -4,13 +4,13 @@ package main;
 
 import (
 	"fmt"
+	cd "codewars/cartesianDistance"
 )
 
 func main() {
-	for i:=-1; i<=1; i++ {
-		for j:=-1; j<=1; j++ {
-			fmt.Println(i, j)
-		}
+	for i:=1; i<=6; i++{
+		var r=cd.CartesianNeighborsDistance(1,1,i)
+		fmt.Printf("Step: %d Len: %d\n", i, len(r))
 	}
 }
 

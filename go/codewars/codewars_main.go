@@ -4,14 +4,12 @@ package main;
 
 import (
 	"fmt"
-	cd "codewars/cartesianDistance"
+	sp "codewars/stepsInPrimes"
 )
 
 func main() {
-	for i:=1; i<=6; i++{
-		var r=cd.CartesianNeighborsDistance(1,1,i)
-		fmt.Printf("Step: %d Len: %d\n", i, len(r))
-	}
+	r:= sp.Step(4, 100, 110)
+	fmt.Printf("(%d, %d)", r[0], r[1])
 }
 
 func  printList(list [][]int ) {

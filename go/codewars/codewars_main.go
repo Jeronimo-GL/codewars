@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	r:= sp.Step(4, 100, 110)
-	fmt.Printf("(%d, %d)", r[0], r[1])
+	r:= sp.Step(11, 300000, 1000000)
+	fmt.Printf("(%d, %d)\n", r[0], r[1])
 }
 
 func  printList(list [][]int ) {

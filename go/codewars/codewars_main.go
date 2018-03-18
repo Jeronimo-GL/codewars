@@ -4,16 +4,13 @@ package main;
 
 import (
 	"fmt"
-	sp "codewars/stepsInPrimes"
+	sd "codewars/seqDisguise"
 )
 
 func main() {
-	r:= sp.Step(11, 300000, 1000000)
-	fmt.Printf("(%d, %d)\n", r[0], r[1])
-}
-
-func  printList(list [][]int ) {
-	for _, n := range list {
-		fmt.Printf("(%d, %d)\n", n[0], n[1])
+	for i:=0 ; i < 10000 ; i ++ {
+		n:= uint(i)
+		r:= sd.Fct(n)
+		fmt.Printf("Fct(%d) -> %d\n", n, r)
 	}
 }

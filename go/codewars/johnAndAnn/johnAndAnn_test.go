@@ -5,15 +5,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-
-func Test_array(t *testing.T){	
-	a := []int{1,2}
-	b := []int{1,2,3}
-	assert.EqualValues(t, a, b, "a2")
-	assert.Equal(t, a, b, "Array")
-}
-
-
 func Test_j_base(t *testing.T){
 	assert.Equal(t, 0, j(0), "in j(0)")
 }
@@ -30,6 +21,7 @@ func Test_j_and_a(t *testing.T){
 	assert.Equal(t, 2, a(2), "in a(2)")
 }
 
+
 func Test_John(t *testing.T){
 	assert.Equal(t, []int{0}, John(0), "Initial case")
 	
@@ -42,4 +34,24 @@ func Test_Ann(t *testing.T){
 	
 	expected := []int {1, 1, 2, 2, 3, 3}
 	assert.Equal(t, expected, Ann(6))
+}
+
+func Test_SumJohn(t *testing.T){
+	assert.Equal(t, 0, SumJohn(0), "Initial sum of John should be 0")
+
+	assert.Equal(t, 0, SumJohn(2), "SumJohn(2) must still be 0")
+
+	assert.Equal(t, 1, SumJohn(3), "SumJohn(3) should be  1")
+
+	assert.Equal(t, 1720, SumJohn(75), "sumJohn(75 should be 1720")
+}
+
+func Test_SumAnn(t *testing.T){
+	assert.Equal(t, 1, SumAnn(0), "Initial SumAnn should be 0")
+
+	assert.Equal(t, 2, SumAnn(1), "First value of sumAnn should be 1")
+
+	assert.Equal(t, 2, SumAnn(2), "SumAnn(2) should be 2")
+
+	assert.Equal(t, 6930, SumAnn(150), "SumAnn(150) should be 6930")
 }

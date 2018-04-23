@@ -7,7 +7,9 @@ import (
 )
 
 func main() {
-	for i:=0 ; i < 10 ; i ++ {
-		fmt.Printf("%d\t%d\t%d\n", i, ja.A(i), ja.J(i))
-	}
+	k :=30
+	fmt.Print("Ann  ", ja.Ann(k), "\n")
+	fmt.Print("John ", ja.John(k), "\n")
+
+	fmt.Print(ja.SumAnn(0))
 }

@@ -1,8 +1,14 @@
 package twiceLinear
 
-import (
-	"fmt"
-)
+
+func contains(arr []int, e int) bool {
+   for _, a := range arr {
+      if a == e {
+         return true
+      }
+   }
+   return false
+}
 
 func DblLinear(n int) int {
 	twos := []int {3}
@@ -11,7 +17,6 @@ func DblLinear(n int) int {
 	lastThree := 0
 	next:=1
 	for i:=2; i<=n +1  ; i++ {
-		fmt.Printf("lastTwo: %d [%d] lastThree: %d [%d]\n", lastTwo, len(twos), lastThree, len(threes))
 		if twos[lastTwo] <= threes[lastThree] {
 			next=twos[lastTwo]
 			lastTwo++
@@ -19,15 +24,10 @@ func DblLinear(n int) int {
 			next=threes[lastThree]
 			lastThree++
 		}
-		fmt.Printf("Next: %d\n", next)
-		fmt.Println(twos)
-		fmt.Println(threes)
-		// twos=append(twos, next*2 +1)
-		// threes=append(threes, next*3 +1)
-		if  (next*2 +1) > threes[len(threes)-1] {
+		if !contains(threes, next*2+1){
 			twos=append(twos, next*2 +1)
 		}
-		if (next*3 +1) > twos[len(twos)-1] {
+		if !contains(twos, next*3+1){
 			threes=append(threes, next*3 +1)
 		}
 	}

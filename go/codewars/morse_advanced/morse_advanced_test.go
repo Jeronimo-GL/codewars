@@ -17,12 +17,19 @@ func Test_decodeBits( t *testing.T){
 }
 
 
-func Test_splitMsg(t *testing.T){
-	assert.Equal(t, []string{"0", "1", "0"}, splitMessage("010"), "010")
-	assert.Equal(t, []string{"00", "11", "00"}, splitMessage("001100"), "001100")
-	assert.Equal(t, []string{"0"}, splitMessage("0"), "0")
-	assert.Equal(t, []string{"1"}, splitMessage("1"), "1")
-	assert.Equal(t, []string{"111"}, splitMessage("111"), "111")
-	assert.Equal(t, []string{"00", "11"}, splitMessage("0011"), "0011")
-	assert.Equal(t, []string{"11", "00"}, splitMessage("1100"), "1100")
+/* run only split tests
+go test -v -run split src/codewars/morse_advanced/*
+
+*/
+
+func Test_splitMessage(t *testing.T){
+	assert.Equal(t, []string{"0", "1", "0"}, SplitMessage("010"), "010")
+	assert.Equal(t, []string{"0", "11", "0"}, SplitMessage("0110"), "0110")
+	assert.Equal(t, []string{"00", "1", "0"}, SplitMessage("0010"), "010")
+	assert.Equal(t, []string{"00", "11", "00"}, SplitMessage("001100"), "001100")
+	assert.Equal(t, []string{"0"}, SplitMessage("0"), "0")
+	assert.Equal(t, []string{"1"}, SplitMessage("1"), "1")
+	assert.Equal(t, []string{"111"}, SplitMessage("111"), "111")
+	assert.Equal(t, []string{"00", "11"}, SplitMessage("0011"), "0011")
+	assert.Equal(t, []string{"11", "00"}, SplitMessage("1100"), "1100")
 }

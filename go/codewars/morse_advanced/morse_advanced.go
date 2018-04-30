@@ -1,7 +1,15 @@
 package morse_advanced
 
-func splitMessage(msg string) []string{
+func SplitMessage(msg string) []string{
 	resp:=[]string {}
+	lastChar:=msg[0]
+	var ongoing string=""
+	for i:=1; i<len(msg); i++{
+		char :=msg[i]
+		if lastChar==char {
+ 			
+		}
+	}
 	return resp
 }
 

@@ -3,9 +3,9 @@ package main;
 
 import (
 	"fmt"
-	. "codewars/rangeExtraction"
+	. "codewars/integerPartitions"
 )
 
 func main() {
-	fmt.Printf("%s\n",Solution([]int{1,3,4,5}))
+	fmt.Printf("%d\n",Partitions(4))
 }

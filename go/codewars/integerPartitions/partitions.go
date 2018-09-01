@@ -5,20 +5,25 @@ import (
 	"math"
 )
 
-func Partitions(n int) int { 
-	return paux(n)
+func Partitions(n int) int {
+	cache := make(map[int]int)
+	parts:= paux(n, cache)
+	return parts
 }
 
-func paux(n int) int {
+func paux(n int, cache map[int]int) int {
 	if n <=1 {
 		return 1
 	} else {
 		sum:= 0
 		nk:= 1
 		for n-sub(nk) >=0{
-			s:=sign(nk)
-			ss:=sub(nk)
-			sum = sum + s*paux(n-ss)
+			part, exists:=cache[n-sub(nk)]
+			if !exists {
+				part=paux(n-sub(nk), cache)
+				cache[n-sub(nk)]=part
+			}
+			sum = sum + sign(nk)*part
 			nk=next(nk)
 		}
 		return sum

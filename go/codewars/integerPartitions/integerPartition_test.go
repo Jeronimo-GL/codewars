@@ -18,7 +18,7 @@ func Test_examples(t *testing.T) {
 	assert.Equal(t, 22, Partitions(8), "p(8)")
 	assert.Equal(t, 1958, Partitions(25), "p(25)")
 	assert.Equal(t, 8349, Partitions(32), "p(32)") 
-//	assert.Equal(t, 173525, Partitions(49), "p(49)")
+	assert.Equal(t, 173525, Partitions(49), "p(49)")
 }
 
 func Test_next(t *testing.T) {

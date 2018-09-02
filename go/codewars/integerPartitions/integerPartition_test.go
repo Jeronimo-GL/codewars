@@ -17,7 +17,7 @@ func Test_examples(t *testing.T) {
 	assert.Equal(t, 15, Partitions(7), "p(7)")
 	assert.Equal(t, 22, Partitions(8), "p(8)")
 	assert.Equal(t, 1958, Partitions(25), "p(25)")
-	assert.Equal(t, 8349, Partitions(32), "p(32)") 
+	assert.Equal(t, 8349, Partitions(32), "p(32)")
 	assert.Equal(t, 173525, Partitions(49), "p(49)")
 }
 
@@ -28,8 +28,7 @@ func Test_next(t *testing.T) {
 	assert.Equal(t, 3, next(-2), "next(-2)")
 }
 
-
-func Test_sign(t *testing.T){
+func Test_sign(t *testing.T) {
 	assert.Equal(t, 1, sign(1), "sign(1)")
 	assert.Equal(t, 1, sign(-1), "sign(-1)")
 	assert.Equal(t, -1, sign(2), "sign(2)")
@@ -38,7 +37,7 @@ func Test_sign(t *testing.T){
 	assert.Equal(t, 1, sign(-3), "sign(-3)")
 }
 
-func Test_sub(t *testing.T){
+func Test_sub(t *testing.T) {
 	assert.Equal(t, 1, sub(1), "sub(1)")
 	assert.Equal(t, 2, sub(-1), "sub(-1)")
 	assert.Equal(t, 5, sub(2), "sub(2)")

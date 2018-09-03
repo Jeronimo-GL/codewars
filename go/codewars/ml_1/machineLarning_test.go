@@ -8,7 +8,7 @@ import (
 
 func Test_command_0(t *testing.T){
 	m:=NewMachine()
-	for i:=0; i<5; i++{
+	for i:=0; i<20; i++{
 		res:=m.Command(0, i)
 		m.Response(res==i+1)
 	}
@@ -17,9 +17,9 @@ func Test_command_0(t *testing.T){
 
 func Test_command_1(t *testing.T){
 	m:=NewMachine()
-	for i:=0; i<5; i++{
+	for i:=0; i<20; i++{
 		res:=m.Command(1, i)
 		m.Response(res==0)
 	}
-	assert.Equal(t, 0, m.Command(0, 3), "command 1")
+	assert.Equal(t, 0, m.Command(1, 3), "command 1")
 }

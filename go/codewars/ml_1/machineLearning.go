@@ -24,7 +24,7 @@ func NewMachine() Machine {
 		func(x int) int { return x % 2 }}
 	var matrix [ACTIONS_SIZE][ACTIONS_SIZE]int
 	return Machine{_actions,matrix, -1, -1}
-}
+} 
 
 func (m *Machine) PrintState(){
 	fmt.Printf("LastCommand:%d\tlastProposedAction:%d\n", m.lastCommand, m.lastActionProposed)

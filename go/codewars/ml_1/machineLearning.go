@@ -2,29 +2,39 @@ package machineLearning
 
 import (
 	"math/rand"
-	"fmt"
+  "fmt"
 )
 
+func Actions()[]func(int) int{
+	_actions := []func(int) int{
+		func(x int) int { return x + 1 },
+		func(x int) int { return 0 },
+		func(x int) int { return (x / 2) },
+		func(x int) int { return x * 100 },
+		func(x int) int { return x % 2 }}
+
+	return _actions
+}
+
+var ACTIONS_SIZE int =len(Actions())
+
 type Machine struct {
-	actions  []func(int) int
-	matrix [ACTIONS_SIZE][ACTIONS_SIZE]int
+	matrix [][]int
 	lastCommand int
 	lastActionProposed int
 }
 
-const ACTIONS_SIZE int =5
+
 
 //Function called to get your machine initialised
 func NewMachine() Machine {
-	_actions := []func(int) int{
-		func(x int) int { return x + 1 },
-		func(x int) int { return 0 },
-		func(x int) int { return int(x / 2) },
-		func(x int) int { return x * 100 },
-		func(x int) int { return x % 2 }}
-	var matrix [ACTIONS_SIZE][ACTIONS_SIZE]int
-	return Machine{_actions,matrix, -1, rand.Intn(5)}
+	matrix := make([][]int, ACTIONS_SIZE)
+	for i := range matrix {
+		matrix[i] = make([]int, ACTIONS_SIZE)
+	}
+	return Machine{matrix, -1, rand.Intn(ACTIONS_SIZE)}
 } 
+
 
 func (m *Machine) PrintState(){
 	fmt.Printf("LastCommand:%d\tlastProposedAction:%d\n", m.lastCommand, m.lastActionProposed)
@@ -49,21 +59,21 @@ func (m *Machine) Command(cmd int, num int) int {
 	c:=m.lastActionProposed //rand.Intn(5)
 	i:=0
 	for c>=0{
-		i+=1
+		i ++
 		if m.matrix[cmd][i%ACTIONS_SIZE]>=0 {
-			c-=1
+			c--
 		}
 	}
 	proposedAction:=i%ACTIONS_SIZE
 	m.lastCommand=cmd
 	m.lastActionProposed=proposedAction
-	return m.actions[proposedAction](num)
+	return Actions()[proposedAction](num)
 }
 
 func (m *Machine) Response(res bool) {
 	if res {
-		m.matrix[m.lastCommand][m.lastActionProposed] += 1
+		m.matrix[m.lastCommand][m.lastActionProposed] ++
 	}else{
-		m.matrix[m.lastCommand][m.lastActionProposed] -= 1
+		m.matrix[m.lastCommand][m.lastActionProposed] --
 	}
 }

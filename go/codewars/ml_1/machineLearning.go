@@ -23,7 +23,7 @@ func NewMachine() Machine {
 		func(x int) int { return x * 100 },
 		func(x int) int { return x % 2 }}
 	var matrix [ACTIONS_SIZE][ACTIONS_SIZE]int
-	return Machine{_actions,matrix, -1, -1}
+	return Machine{_actions,matrix, -1, rand.Intn(5)}
 } 
 
 func (m *Machine) PrintState(){
@@ -46,7 +46,7 @@ func (m *Machine ) PrintMatrix(){
 }
 
 func (m *Machine) Command(cmd int, num int) int {
-	c:=rand.Intn(5)
+	c:=m.lastActionProposed //rand.Intn(5)
 	i:=0
 	for c>=0{
 		i+=1

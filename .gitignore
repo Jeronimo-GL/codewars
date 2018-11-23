@@ -10,3 +10,11 @@ build/
 
 # python
 __pycache__
+
+# eclipse related
+scala/.cache-main
+scala/.cache-tests
+scala/.classpath
+scala/.project
+scala/.settings/
+scala/.worksheet/

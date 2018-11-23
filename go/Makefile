@@ -1,4 +1,4 @@
-PROBLEM=ml_1
+PROBLEM=base91
 
 test:
 	@cd ${GOPATH}; \

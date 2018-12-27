@@ -18,3 +18,8 @@ scala/.classpath
 scala/.project
 scala/.settings/
 scala/.worksheet/
+
+# java / eclipse related
+java/.classpath
+java/.project
+java/.settings/

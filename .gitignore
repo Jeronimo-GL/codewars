@@ -10,6 +10,7 @@ build/
 
 # python
 __pycache__
+python/env3.6
 
 # eclipse related
 scala/.cache-main

@@ -1,4 +1,4 @@
-PROBLEM=base91
+PROBLEM=lastDigit
 
 test:
 	@cd ${GOPATH}; \

@@ -7,10 +7,12 @@ build/
 .ensime
 .ensime_cache/
 *.class
+.metals/
 
 # python
 __pycache__
 python/env3.6
+python/.venv
 
 # eclipse related
 scala/.cache-main
@@ -24,3 +26,7 @@ scala/.worksheet/
 java/.classpath
 java/.project
 java/.settings/
+
+# emacs
+*.*#
+

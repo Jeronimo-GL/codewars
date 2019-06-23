@@ -45,6 +45,7 @@ object Snail extends App{
     }
   }
 
+
   // Calculates the next position of the snail regardles of the size of the box
   def nextPos(pos :(Int, Int), dir:(Int, Int)): (Int, Int) = (pos._1 + dir._1, pos._2 + dir._2)
 

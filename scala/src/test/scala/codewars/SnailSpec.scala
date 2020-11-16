@@ -2,8 +2,9 @@ package codewars
 
 import org.scalatest._
 import Snail.snail
+import org.scalatest.funsuite.AnyFunSuite
 
-class SnailSpec extends FunSuite {
+class SnailSpec extends AnyFunSuite {
   test("Must work for empty box") {
     assert(snail(List(List())) == List())
   }

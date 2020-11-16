@@ -4,8 +4,9 @@ import org.scalatest._
 import org.scalatest.Assertions._
 
 import StringMixTest._
+import org.scalatest.flatspec.AnyFlatSpec
 
-class StringMixTest extends FlatSpec { 
+class StringMixTest extends AnyFlatSpec { 
   it should "pass basic tests" in {
     testing("Are they here", "yes, they are here", "2:eeeee/2:yy/=:hh/=:rr")
     testing("uuuuuu", "uuuuuu", "=:uuuuuu")

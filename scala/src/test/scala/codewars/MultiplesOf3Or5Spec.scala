@@ -1,8 +1,10 @@
 package codewars
 
 import org.scalatest._
+import org.scalatest.funspec.AnyFunSpec
+import org.scalatest.matchers.should.Matchers
 
-class MultiplesOf3Or5Spec extends FunSpec with Matchers{
+class MultiplesOf3Or5Spec extends AnyFunSpec with Matchers{
 
   import MultiplesOf3Or5._
 

@@ -1,9 +1,10 @@
 package codewars
 
 import org.scalatest._
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-
-class TwiceLinearSpec extends FlatSpec with Matchers {
+class TwiceLinearSpec extends AnyFlatSpec with Matchers {
   "Twicelinear" should "work" in {
     DblLinear.dblLinear(50) should be (175)
     DblLinear.dblLinear(100) should be (447)

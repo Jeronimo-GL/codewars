@@ -1,8 +1,9 @@
 package codewars
 
-import org.scalatest._
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class KprimesSpec extends FlatSpec with Matchers{
+class KprimesSpec extends AnyFlatSpec with Matchers{
   "Kprimes" must "be 1 for 1" in {
     KPrimes.countKprimes(1, 0, 1) should equal ("")
   }

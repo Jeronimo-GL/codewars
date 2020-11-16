@@ -2,8 +2,9 @@ package codewars
 
 import org.scalatest._
 import codewars.Sudoku._
+import org.scalatest.funspec.AnyFunSpec
 
-class SudokuValSpec extends FunSpec{
+class SudokuValSpec extends AnyFunSpec{
   val validBoard = Array(
       Array(5, 3, 4, 6, 7, 8, 9, 1, 2),
       Array(6, 7, 2, 1, 9, 5, 3, 4, 8),

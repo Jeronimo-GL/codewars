@@ -1,10 +1,11 @@
 package codewars
 
-import org.scalatest._
+import org.scalatest.funspec._
 import codewars.CustomCodewarsMatchers._
+import org.scalatest.matchers.should.Matchers
 
 
-class ComplexAlgSpec extends FunSpec with Matchers {
+class ComplexAlgSpec extends AnyFunSpec with Matchers {
   describe("The complex algorthim function"){
 
     it("should pass de example tests"){

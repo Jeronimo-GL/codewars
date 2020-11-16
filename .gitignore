@@ -3,6 +3,7 @@ bin/
 project/
 target/
 build/
+.bloop/
 .ensime/
 .ensime
 .ensime_cache/

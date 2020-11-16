@@ -5,3 +5,4 @@ object CreatePhoneNumbers {  // No need of app if we only use the tests
     "(" + numbers.slice(0,3).mkString + ") " + numbers.slice(3, 6).mkString + "-" + numbers.slice(6, 10).mkString
   }
 }
+ 

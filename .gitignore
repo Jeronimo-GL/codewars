@@ -14,6 +14,7 @@ build/
 __pycache__
 python/env3.6
 python/.venv
+*.pyc
 
 # eclipse related
 scala/.cache-main
@@ -31,3 +32,9 @@ java/.settings/
 # emacs
 *.*#
 
+# rust
+rust/target/
+rust/Cargo.lock
+
+#go
+go/.vscode/

@@ -11,6 +11,7 @@ FSM = {"CLOSED": {"APP_PASSIVE_OPEN":"LISTEN", "APP_ACTIVE_OPEN":"SYN_SENT"},
        "LAST_ACK": {"RCV_ACK": "CLOSED"}
 }
 
+
 def traverse_TCP_states(events):
     state = "CLOSED"  # initial state, always
     for e in events:
@@ -18,6 +19,7 @@ def traverse_TCP_states(events):
             return "ERROR"
         state = FSM[state][e]
     return state
+
 
 if __name__ == '__main__':
     print(traverse_TCP_states(["APP_ACTIVE_OPEN","RCV_SYN_ACK","RCV_FIN"]))

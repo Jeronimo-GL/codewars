@@ -1,10 +1,8 @@
-
-package main;
+package main
 
 import (
 	. "codewars/base91"
 )
-
 
 func main() {
 	Init()

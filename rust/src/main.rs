@@ -1,15 +1,29 @@
-pub mod vowel_count;
-pub mod split_strings;
+pub mod chaser;
+pub mod remove_pars;
+
+// pub mod split_strings;
+// pub mod vowel_count;
+
 
 fn main() {
-
-    let cs: Vec<String> =
-        "holamundo".chars()
-        .collect::<Vec<char>>()
-        .chunks(2)
-        .map(|x| x.iter().collect())
-        .map(|x:String| if x.len() == 1 {x + "_"} else {x})
-        .collect();
-
-    dbg!(cs);
+    let s: &str = "Hola (con) parentesis() mas ( sds ( ds ) iuy)";
+    let mut sc = s.to_string();
+    let mut to_remove:Vec<usize> = Vec::new();
+    
+    for (pos, c) in s.chars().enumerate() {
+        match c {
+            '(' => {
+                to_remove.push(pos);
+            },
+            ')' => {
+                if let Some(start) = to_remove.pop() {
+                    sc.replace_range(start .. pos+1, &"#".repeat((pos-start)+1));
+                }
+            },
+            _ => (),
+        }
+    }
+    println!("{}", &s);
+    let fs = sc.replace("#", "");
+    println!("{}", &fs);
 }

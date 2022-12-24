@@ -1,5 +1,6 @@
 pub mod chaser;
 pub mod remove_pars;
+pub mod mini_string_fuck;
 
 // pub mod split_strings;
 // pub mod vowel_count;

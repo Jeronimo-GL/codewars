@@ -1,0 +1,311 @@
+* Codewars
+[2018-03-14 mié 16:51]
+Overall:6 kyu / 13%
+Go:8 kyu / 65%
+Python:7 kyu / 73%
+Scala:7 kyu / 21%
+
+[2018-03-15 jue 09:39] Después de kata CartesianDistance (Kyu 6)
+Overall:6 kyu / 18%
+Go:7 kyu / 2%
+Python:7 kyu / 73%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/steps-in-primes
+[2018-03-18 dom] Después de steps-in-primes (kyu 6) -> 143
+Overall:6 kyu / 24%
+Go:7 kyu / 16%
+Python:7 kyu / 73%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/a-disguised-sequence-i
+[2018-03-18 dom] Después de a-disguised-sequence-i (kyu 6) -> 151
+Overall:6 kyu / 29%
+Go:7 kyu / 30%
+Python:7 kyu / 73%
+Scala:7 kyu / 21%
+
+[2018-03-19 lun] El mismo en python -> 151
+Overall:6 kyu / 29%
+Go:7 kyu / 30%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/gap-in-primes
+[2018-03-21 mié] Después de gap-in-primes (kyu 5) -> 165
+Overall:6 kyu / 42%
+Go:7 kyu / 68%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/john-and-ann-sign-up-for-codewars
+[2018-04-23 lun 17:39] Después de john-and-ann-sign-up-for-codewars (kyu 5) -> 167
+
+Overall:6 kyu / 56%
+Go:6 kyu / 2%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/magnet-particules-in-boxes/train/go
+[2018-04-24 mar 12:23] Después de magnets (kyu 4) -> 175
+Overall:6 kyu / 92.2%
+Go:6 kyu / 38%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+[2018-04-24 mar 19:49] Después de twice (kyu 4) -> 204
+Overall:5 kyu / 10%
+Go:6 kyu / 74%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/5269452810342858ec000951/train/go
+[2018-04-25 mié 15:54] Después de coordinates (kyu 4) -> 284
+Overall:5 kyu / 24%
+Go:5 kyu / 4%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+
+http://www.codewars.com/kata/range-extraction
+[2018-05-11 vie 12:41] Después de range extraction (kyu 4) -> 316
+Overall:5 kyu / 37%
+Go:5 kyu / 17%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+
+[2018-05-29 mar 17:40] Después de Roman Decoder (Kyu 4) -> 378
+Overall:5 kyu / 50%
+Go:5 kyu / 30%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/number-of-integer-partitions
+[2018-09-01 sáb 18:37] Después de IntegerPartitions (Kyu 4) -> 380
+Overall:5 kyu / 64%
+Go:5 kyu / 43%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/the-learning-game-machine-learning-number-1
+[2018-09-05 mié 16:39] Después machine learning (Kyu 4) -> 442
+Overall:5 kyu / 77%
+Go:5 kyu / 57%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+https://www.codewars.com/kata/sudoku-solution-validator
+[2018-11-03 sáb 16:25] Después de sudoku (Kyu 4) -> 444
+Overall:5 kyu / 90.1%
+Go:5 kyu / 70%
+Python:7 kyu / 88%
+Scala:7 kyu / 21%
+
+[2018-11-23 vie] Después de sudoku en scala (Kyu 4) -> 444
+Overall:5 kyu / 90.1%
+Go:5 kyu / 70%
+Python:7 kyu / 88%
+Scala:6 kyu / 7%
+
+[2018-11-23 vie] Después de magnets en scala (Kyu 4) -> 444
+Overall:5 kyu / 90.1%
+Go:5 kyu / 70%
+Python:7 kyu / 88%
+Scala:6 kyu / 43%
+
+[2018-11-29 jue] Despues de TwiceLinear en scala (Kyu 4) -> 444
+Overall:5 kyu / 90.1%
+Go:5 kyu / 70%
+Python:7 kyu / 88%
+Scala:6 kyu / 79%
+
+[2018-12-01 sáb] Después de snail en scala (Kyu 4) -> 476
+Overall:4 kyu / 1%
+Go:5 kyu / 70%
+Python:7 kyu / 88%
+Scala:5 kyu / 6%
+
+[2018-12-27 jue] Después de binomial expansion en java (kyu 4) -> 608
+Overall:4 kyu / 14%
+Go:5 kyu / 70%
+Java:6 kyu / 48%
+Python:7 kyu / 88%
+Scala:5 kyu / 6%
+
+[2018-12-29 sáb] Después de String Mix en scala (kyu 4) -> 640
+Overall:4 kyu / 19%
+Go:5 kyu / 70%
+Java:6 kyu / 48%
+Python:7 kyu / 88%
+Scala:5 kyu / 19%
+
+[2019-01-01 mar] Después de Observed PINs (kyu 4) -> 642
+Overall:4 kyu / 24%
+Go:5 kyu / 70%
+Java:6 kyu / 84%
+Python:7 kyu / 88%
+Scala:5 kyu / 19%
+
+[2019-01-03 jue] Despues de Sort binary tree -> 704
+Overall:4 kyu / 29%
+Go:5 kyu / 70%
+Java:6 kyu / 84%
+Python:6 kyu / 31%
+Scala:5 kyu / 19%
+
+[2019-03-19 mar] Despues de anagrams en Python -> 712
+Overall:4 kyu / 31.0%
+Go:5 kyu / 70.0%
+Java:6 kyu / 83.7%
+Python:6 kyu / 45.1%
+Scala:5 kyu / 18.8%
+
+[2019-04-16 mar] Después de NotVerySecure -> 720
+Overall:4 kyu / 32.9%
+Go:5 kyu / 70.0%
+Java:6 kyu / 83.7%
+Python:6 kyu / 58.8%
+Scala:5 kyu / 18.8%
+
+[2019-04-17 mié] Después de differentiate -> 752
+Overall:4 kyu / 37.8%
+Go:5 kyu / 70.0%
+Java:6 kyu / 83.7%
+Python:6 kyu / 94.8%
+Scala:5 kyu / 18.8%
+
+[2019-04-18 jue] Después de differentiate en Java -> 752
+Overall:4 kyu / 37.8%
+Go:5 kyu / 70.0%
+Java:5 kyu / 7.2%
+Python:6 kyu / 94.8%
+Scala:5 kyu / 18.8%
+
+[2019-04-19 vie] Después de Most frequent words in text en Python -> 752
+Overall:4 kyu / 37.8%
+Go:5 kyu / 70.0%
+Java:5 kyu / 7.2%
+Python:6 kyu / 94.8%
+Scala:5 kyu / 18.8%
+
+[2019-05-18 sáb] Despues de TCP FSM -> 784
+Overall:4 kyu / 42.7%
+Go:5 kyu / 70.0%
+Java:5 kyu / 7.2%
+Python:5 kyu / 11.4%
+Scala:5 kyu / 18.8%
+
+[2019-05-18 sáb] Después Connected -> 816
+Overall:4 kyu / 47.6%
+Go:5 kyu / 70.0%
+Java:5 kyu / 7.2%
+Python:5 kyu / 24.6%
+Scala:5 kyu / 18.8%
+
+[2019-06-10 lun] Después de guess Random -> 848
+Overall:4 kyu / 60.8%
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 24.6%
+Scala:5 kyu / 18.8%
+
+[2020-11-17 mar] Después de Rectange Rotation -> 880
+Overall:4 kyu / 65.7%
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 24.6%
+Scala:5 kyu / 32.1%
+
+[2020-11-17 mar] Después de Human Readable duration -> 912
+Overall:4 kyu / 70.6%
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 24.6%
+Scala:5 kyu / 45.4%
+
+[2020-11-18 mié] Después de determinante -> 944
+Overall:4 kyu / 75.5%
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 24.6%
+Scala:5 kyu / 58.7%
+
+[2020-12-30 mié] Después de números romanos -> 976
+Overall:4 kyu / 80.4%
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 37.9%
+Scala:5 kyu / 58.7%
+
+[[https://www.codewars.com/kata/52e864d1ffb6ac25db00017f][Infix to postfix notation]]
+[2020-12-31 jue] después de RPN -> 1008
+Overall:4 kyu / 85.2%
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 51.2%
+Scala:5 kyu / 58.7%
+
+[2022-11-30 mié] despues de contar vocales en Rust
+Overall:4 kyu / 85.5% -> 1013
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 51.2%
+Rust:8 kyu / 15.0%
+Scala:5 kyu / 58.7%
+
+[2022-12-03 sáb] después de split string en rust
+Overall:4 kyu / 86.2% -> 1018
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 51.2%
+Rust:8 kyu / 55.0%
+Scala:5 kyu / 58.7%
+
+[2022-12-24 sáb] después de remove paretheses
+Overall:4 kyu / 86.9% -> 1026
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 51.2%
+Rust:8 kyu / 95.0%
+Scala:5 kyu / 58.7%
+
+
+[2022-12-24 sáb] mini string fuck
+Overall:4 kyu / 87.6% -> 1034
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 51.2%
+Rust:7 kyu / 12.5%
+Scala:5 kyu / 58.7%
+
+
+* Ongoing
+** https://www.codewars.com/kata/53f40dff5f9d31b813000774
+
+There is a secret string which is unknown to you. Given a collection of random triplets from the
+string, recover the original string. 
+
+A triplet here is defined as a sequence of three letters such that each letter occurs somewhere
+before the next in the given string. "whi" is a triplet for the string "whatisup". 
+
+As a simplification, you may assume that no letter occurs more than once in the secret string. 
+
+You can assume nothing about the triplets given to you other than that they are valid triplets and
+that they contain sufficient information to deduce the original string. In particular, this means
+that the secret string will never contain letters that do not occur in one of the triplets given to
+you.
+
+** https://www.codewars.com/kata/628df6b29070907ecb3c2d83/rust
+
+R S
+RR SR RS
+RRR RRS RSR SRR SRS
+RRRR RRRS RRSR RSRR RSRS SRRR SRRS SRSR
+
+No hay manera
+
+** https://www.codewars.com/kata/53d3173cf4eb7605c10001a8/train/rust
+
+
+

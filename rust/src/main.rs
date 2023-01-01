@@ -1,14 +1,9 @@
+use std::cmp::{max, min};
 
-pub mod powerset;
+
+pub mod rgb_conversion;
 
 fn main() {
-    let n: u32 = 7;
-    for i in 0..4{
-        if n&(1<<i) > 0{
-            print!("{}", 1);
-        } else {
-            print!("{}", 0);
-        }
-
-    }
+    let x =-300;
+    println!("{:02X?}", max(min(x, 255), 0));
 }

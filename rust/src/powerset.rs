@@ -4,20 +4,17 @@ use core::iter::zip;
 
 #[allow(dead_code)]
 fn power(a: &[u32]) -> Vec<Vec<u32>> {
-    let size:usize = a.len();
-    let mut salida:Vec<Vec<u32>>= vec![];
-    for i in 0..2_i32.pow(size as u32){
-        let mut v = i;
+    let mut output:Vec<Vec<u32>>= vec![];
+    for i in 0..2_i32.pow(a.len() as u32){
         let mut comb:Vec<u32> = vec![];
-        for e in 0..size{
-            if v%2 == 1 {
+        for e in 0..a.len(){
+            if i&(1<<e) > 0 {
                 comb.push(a[e]);
             } 
-            v = v / 2;
         }
-        salida.push(comb)
+        output.push(comb)
     }
-    return salida;
+    return output;
 }
 
 #[allow(dead_code)]

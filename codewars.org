@@ -279,6 +279,14 @@ Python:5 kyu / 51.2%
 Rust:7 kyu / 12.5%
 Scala:5 kyu / 58.7%
 
+[2022-12-31 sáb] después de powerset
+Overall:4 kyu / 89.5% -> 1042
+Go:5 kyu / 70.0%
+Java:5 kyu / 43.2%
+Python:5 kyu / 51.2%
+Rust:7 kyu / 50.0%
+Scala:5 kyu / 58.7%
+
 
 * Ongoing
 ** https://www.codewars.com/kata/53f40dff5f9d31b813000774

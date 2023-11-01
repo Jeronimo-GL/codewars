@@ -6,14 +6,6 @@ func equalsArray(a,b []int) bool {
 	return (a[0]==b[0] && a[1]==b[1]) || (a[0]==b[1] && a[1]==b[0])
 }
 
-func arrayContains(list []float64, v float64) bool {
-	for _, n := range list {
-		if v==n {
-			return true
-		}
-	}
-	return false
-}
 
 func check_response(t *testing.T, x int, y int, resp []float64, expected []float64) {
 	if len(resp) != len(expected) {

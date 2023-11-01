@@ -2,11 +2,11 @@ package coordinates
 
 import (
 	"testing"
+
 	"github.com/stretchr/testify/assert"
 )
 
-
-func Test_samples(t *testing.T){
+func Test_samples(t *testing.T) {
 	assert.True(t, IsValidCoordinates("-23, 25"), "Should be true for -23, 25")
 	assert.True(t, IsValidCoordinates("4, -3"), "Should be true for 4, -3")
 	assert.True(t, IsValidCoordinates("24.53525235, 23.45235"), "Should be true for 24.53525235, 23.45235")
@@ -23,7 +23,7 @@ func Test_samples(t *testing.T){
 	assert.False(t, IsValidCoordinates("23.245, 1e1"), "Should be false for 23.245, 1e1")
 }
 
-func Test_otherCases(t *testing.T){
+func Test_otherCases(t *testing.T) {
 	assert.False(t, IsValidCoordinates(""), "Empty string")
 	assert.False(t, IsValidCoordinates("   "), "Blank string")
 	assert.False(t, IsValidCoordinates("1,2,3,4"), "More than two numbers in the string")

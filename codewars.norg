@@ -303,6 +303,14 @@ Python:5 kyu / 51.2%
 Java:5 kyu / 43.2%
 Rust:6 kyu / 9.2%
 
+[2023-11-01 dom] Después de Fibonaccy (Kyu 3)
+Overall:3 kyu / 2.4% -> 1190
+Go:4 kyu / 2.2%
+Scala:5 kyu / 58.7%
+Python:5 kyu / 51.2%
+Java:5 kyu / 43.2%
+Rust:6 kyu / 9.2%
+
 * Ongoing
 
 ** https://www.codewars.com/kata/52423db9add6f6fc39000354/train/python
@@ -333,4 +341,10 @@ No hay manera
 
 ** https://www.codewars.com/kata/600c18ec9f033b0008d55eec
 
-** https://www.codewars.com/kata/53d40c1e2f13e331fc000c26/train/go
+** Million Fibonacci
+    {https://www.codewars.com/kata/53d40c1e2f13e331fc000c26/train/go}[Link to kata]
+    {https://en.wikipedia.org/wiki/Fibonacci_sequence}[Fibonacci sequence]
+    {https://web.archive.org/web/20220614001843/https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4}[Potencias]
+
+
+

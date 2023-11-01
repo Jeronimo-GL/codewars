@@ -12,3 +12,5 @@ def anagrams(word, words):
 
 if __name__ == '__main__':
     print(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']))
+
+

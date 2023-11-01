@@ -2,19 +2,16 @@ use std::str;
 
 #[allow(dead_code)]
 fn my_first_interpreter(code: &str) -> String {
-    let mut cell:u8 = 0;
-    let mut output:String= String::new();
-    for c in code.chars(){
-        match c {
-            '+' => cell = cell.wrapping_add(1),
-            '.' => output.push(cell as char),
-            _ => ()
-        }
-    }
+    let mut cell: u8 = 0;
+    let mut output: String = String::new();
+    code.chars().into_iter().for_each(|c| match c {
+        '+' => cell = cell.wrapping_add(1),
+        '.' => output.push(cell as char),
+        _ => (),
+    });
 
     return output;
 }
-
 
 #[test]
 fn example_test_cases() {

@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 numpy = "*"
-pyright = "*"
 
 [dev-packages]
+pyright = "*"
 
 [requires]
 python_version = "3.11"

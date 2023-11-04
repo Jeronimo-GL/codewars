@@ -9,7 +9,7 @@ class TestParseInt(unittest.TestCase):
         self.assertEqual(parse_int("two"), 2)
         self.assertEqual(parse_int("three"), 3)
         self.assertEqual(parse_int("four"), 4)
-        self.assertEqual(parse_int("nine"), 0)
+        self.assertEqual(parse_int("nine"), 9)
         self.assertEqual(parse_int("zero"), 0)
 
     def test_teens(self):

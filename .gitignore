@@ -9,6 +9,7 @@ build/
 .ensime_cache/
 *.class
 .metals/
+*.lock
 
 # python
 __pycache__
